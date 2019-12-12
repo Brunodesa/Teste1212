@@ -24,16 +24,16 @@ namespace Teste1212
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            List<int> n = new List<int>;
+            List<int> n = new List<int>();
             Random rnd = new Random();
             for (int i = 0; i < 5;i++)
             {
                 {
                     int tmp;
                     do tmp = rnd.Next(1, 51);
-                    while (n.Container(tmp));
+                    while (s.Contains(tmp));
                 }
-                while (existe);
+                s.Add(tmp);
             }
             n1.Text = n[0].ToString();
             n2.Text = n[1].ToString();
